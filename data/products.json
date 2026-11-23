@@ -1,0 +1,858 @@
+[
+  {
+    "id": "sw-ms",
+    "name": "PRIMO / SW-MS",
+    "category": "bimetal-bandsaws",
+    "image": "assets/products/SW-MS/alfa_MS_product1.webp",
+    "description": "Standard rake angle · Moderate cutting",
+    "features": [
+      {
+        "title": "Standard rake angle",
+        "text": "Moderate cutting with a variable tooth-pitch design for longer tool life in soft materials."
+      },
+      {
+        "title": "Smooth gullet design",
+        "text": "Supports uniform chip curling and efficient chip removal."
+      }
+    ],
+    "application": "Mild steel · EN series · High carbon steels · Structural steels · Tool steel · Profiles and solids up to 35 HRC",
+    "code": "",
+    "pdf": "assets/catalogs/bimetal-bandsaw-catalogue.pdf#page=4",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Size (mm)",
+        "Imported backing TPI",
+        "Indigenous backing TPI"
+      ],
+      [
+        "13 x 0.65",
+        "4, 10, 14, 18, 6/10, 8/12, 10/14",
+        "4, 10, 14, 18, 6/10, 8/12, 10/14"
+      ],
+      [
+        "20 x 0.90",
+        "4, 8, 10, 14, 18, 5/8, 6/10, 8/12, 10/14",
+        "4, 8, 10, 14, 18, 5/8, 6/10, 8/12, 10/14"
+      ],
+      [
+        "27 x 0.90",
+        "4, 8, 10, 14, 18, 5/8, 6/10, 8/12, 10/14",
+        "4, 8, 10, 14, 18, 5/8, 6/10, 8/12, 10/14"
+      ],
+      [
+        "34 x 1.10",
+        "4, 5/8, 6/10",
+        "—"
+      ],
+      [
+        "41 x 1.30",
+        "4, 5/8, 6/10",
+        "—"
+      ]
+    ],
+    "applicationMaterials": [
+      "Mild steel",
+      "EN series",
+      "High carbon steels",
+      "Structural steels",
+      "Tool steel",
+      "Profiles and solids up to 35 HRC"
+    ],
+    "applicationShapes": [
+      "Round stock",
+      "Flat stock",
+      "Tubes",
+      "Structural sections"
+    ],
+    "applicationFigure": "assets/bimetal/primo-applications.webp",
+    "cataloguePage": 4,
+    "cataloguePrintedPage": 3,
+    "searchAliases": [
+      "sw-ms",
+      "PRIMO"
+    ],
+    "catalogueRevision": "BSB-2026-10",
+    "tpiAvailability": {
+      "pitches": [
+        "4",
+        "8",
+        "10",
+        "14",
+        "18",
+        "5/8",
+        "6/10",
+        "8/12",
+        "10/14"
+      ],
+      "rows": [
+        {
+          "size": "13 x 0.65",
+          "marks": [
+            "B",
+            "",
+            "B",
+            "B",
+            "B",
+            "",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "20 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "27 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "34 x 1.10",
+          "marks": [
+            "I",
+            "",
+            "",
+            "",
+            "",
+            "I",
+            "I",
+            "",
+            ""
+          ]
+        },
+        {
+          "size": "41 x 1.30",
+          "marks": [
+            "I",
+            "",
+            "",
+            "",
+            "",
+            "I",
+            "I",
+            "",
+            ""
+          ]
+        }
+      ],
+      "imported": "PRIMO",
+      "indigenous": "SW-MS",
+      "edge": "M42 & M51"
+    }
+  },
+  {
+    "id": "sw-sas",
+    "name": "VIRTUE / SW-SAS",
+    "category": "bimetal-bandsaws",
+    "image": "assets/products/SW-SAS/alfa_SAS_product1.webp",
+    "description": "Positive rake angle · Aggressive cutting",
+    "features": [
+      {
+        "title": "Positive rake angle",
+        "text": "Aggressive cutting with variable tooth pitch to reduce chip load, noise and friction."
+      },
+      {
+        "title": "Deep gullet and raker teeth",
+        "text": "Smooth, deep gullets with a chip-breaker angle and a specific tooth set for easy penetration and uniform chip removal."
+      }
+    ],
+    "application": "Deep drawing steel · Machine steel · Spring steel · Medium alloy steel · Nitriding steel · Stainless steel",
+    "code": "",
+    "pdf": "assets/catalogs/bimetal-bandsaw-catalogue.pdf#page=4",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Size (mm)",
+        "Imported backing TPI",
+        "Indigenous backing TPI"
+      ],
+      [
+        "20 x 0.90",
+        "4/6, 5/8",
+        "4/6, 5/8"
+      ],
+      [
+        "27 x 0.90",
+        "2/3, 3/4, 4/6, 5/8",
+        "2/3, 3/4, 4/6, 5/8"
+      ],
+      [
+        "34 x 1.10",
+        "2/3, 3/4, 4/6, 5/8",
+        "—"
+      ],
+      [
+        "41 x 1.30",
+        "2/3, 3/4, 4/6, 5/8",
+        "—"
+      ],
+      [
+        "54 x 1.60",
+        "2/3, 3/4, 4/6",
+        "—"
+      ],
+      [
+        "67 x 1.60",
+        "2/3, 3/4, 4/6",
+        "—"
+      ],
+      [
+        "80 x 1.60",
+        "2/3",
+        "—"
+      ]
+    ],
+    "applicationMaterials": [
+      "Deep drawing steel",
+      "Machine steel",
+      "Spring steel",
+      "Medium alloy steel",
+      "Nitriding steel",
+      "Stainless steel"
+    ],
+    "applicationShapes": [
+      "Round stock",
+      "Flat stock",
+      "Tubes",
+      "Structural sections"
+    ],
+    "applicationFigure": "assets/bimetal/virtue-applications.webp",
+    "cataloguePage": 4,
+    "cataloguePrintedPage": 3,
+    "searchAliases": [
+      "sw-sas",
+      "VIRTUE"
+    ],
+    "catalogueRevision": "BSB-2026-10",
+    "tpiAvailability": {
+      "pitches": [
+        "2/3",
+        "3/4",
+        "4/6",
+        "5/8"
+      ],
+      "rows": [
+        {
+          "size": "20 x 0.90",
+          "marks": [
+            "",
+            "",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "27 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "34 x 1.10",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            "I"
+          ]
+        },
+        {
+          "size": "41 x 1.30",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            "I"
+          ]
+        },
+        {
+          "size": "54 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            ""
+          ]
+        },
+        {
+          "size": "67 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            ""
+          ]
+        },
+        {
+          "size": "80 x 1.60",
+          "marks": [
+            "I",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "imported": "VIRTUE",
+      "indigenous": "SW-SAS",
+      "edge": "M42 & M51"
+    }
+  },
+  {
+    "id": "sw-ic",
+    "name": "ELITE / SW-IC",
+    "category": "bimetal-bandsaws",
+    "image": "assets/products/SW-IC/alfa_IC_product1.webp",
+    "description": "Strong teeth · Interrupted cutting",
+    "features": [
+      {
+        "title": "Shock-resistant tooth design",
+        "text": "Positive-rake teeth absorb shocks caused by interrupted cuts and support aggressive penetration."
+      },
+      {
+        "title": "Flat gullet and raker teeth",
+        "text": "A chip-breaker angle and specific tooth set support efficient, uniform chip removal."
+      }
+    ],
+    "application": "Bundle cutting · Tube / pipe · Structural steel · Wire · TMT",
+    "code": "",
+    "pdf": "assets/catalogs/bimetal-bandsaw-catalogue.pdf#page=5",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Size (mm)",
+        "Imported backing TPI",
+        "Indigenous backing TPI"
+      ],
+      [
+        "20 x 0.90",
+        "4/6, 5/7, 5/8, 8/11",
+        "4/6, 5/7, 5/8, 8/11"
+      ],
+      [
+        "27 x 0.90",
+        "2/3, 3/4, 4/6, 5/7, 5/8, 8/11",
+        "2/3, 3/4, 4/6, 5/7, 5/8, 8/11"
+      ],
+      [
+        "34 x 1.10",
+        "2/3, 3/4, 4/6, 5/7, 5/8, 8/11",
+        "—"
+      ],
+      [
+        "41 x 1.30",
+        "2/3, 3/4, 4/6",
+        "—"
+      ],
+      [
+        "54 x 1.60",
+        "2/3, 3/4, 4/6",
+        "—"
+      ],
+      [
+        "67 x 1.60",
+        "2/3, 3/4",
+        "—"
+      ]
+    ],
+    "applicationMaterials": [
+      "Bundle cutting",
+      "Tube / pipe",
+      "Structural steel",
+      "Wire",
+      "TMT"
+    ],
+    "applicationShapes": [
+      "Structural sections",
+      "Round-bar bundles",
+      "Square-tube bundles",
+      "Pipe bundles"
+    ],
+    "applicationFigure": "assets/bimetal/elite-applications.webp",
+    "cataloguePage": 5,
+    "cataloguePrintedPage": 4,
+    "searchAliases": [
+      "sw-ic",
+      "ELITE"
+    ],
+    "catalogueRevision": "BSB-2026-10",
+    "tpiAvailability": {
+      "pitches": [
+        "2/3",
+        "3/4",
+        "4/6",
+        "5/7",
+        "5/8",
+        "8/11"
+      ],
+      "rows": [
+        {
+          "size": "20 x 0.90",
+          "marks": [
+            "",
+            "",
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "27 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "34 x 1.10",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I"
+          ]
+        },
+        {
+          "size": "41 x 1.30",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "size": "54 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "I",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "size": "67 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "imported": "ELITE",
+      "indigenous": "SW-IC",
+      "edge": "M42 & M51"
+    }
+  },
+  {
+    "id": "sw-al",
+    "name": "DAVY / SW-AL",
+    "category": "bimetal-bandsaws",
+    "image": "assets/products/SW-AL/alfa_AL_product1.webp",
+    "description": "Shallow-gullet skip tooth · Vertical bandsaw applications",
+    "features": [
+      {
+        "title": "Shallow-gullet skip tooth",
+        "text": "Positive-rake geometry designed for cutting soft materials."
+      },
+      {
+        "title": "Vertical bandsaw operation",
+        "text": "Specific tooth setting and raker teeth support smooth penetration and uniform chip removal."
+      }
+    ],
+    "application": "Aluminium die casting · Extrusion · Non-ferrous material",
+    "code": "",
+    "pdf": "assets/catalogs/bimetal-bandsaw-catalogue.pdf#page=5",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Size (mm)",
+        "Imported backing TPI",
+        "Indigenous backing TPI"
+      ],
+      [
+        "20 x 0.90",
+        "2, 3, 6",
+        "2, 3, 6"
+      ],
+      [
+        "27 x 0.90",
+        "2, 3, 6",
+        "2, 3, 6"
+      ],
+      [
+        "34 x 1.10",
+        "2, 3, 6",
+        "—"
+      ],
+      [
+        "41 x 1.30",
+        "2",
+        "—"
+      ]
+    ],
+    "applicationMaterials": [
+      "Aluminium die casting",
+      "Extrusion",
+      "Non-ferrous material"
+    ],
+    "applicationShapes": [
+      "Round stock",
+      "Die castings",
+      "Extrusions",
+      "Tubes"
+    ],
+    "applicationFigure": "assets/bimetal/davy-applications.webp",
+    "cataloguePage": 5,
+    "cataloguePrintedPage": 4,
+    "searchAliases": [
+      "sw-al",
+      "DAVY"
+    ],
+    "catalogueRevision": "BSB-2026-10",
+    "tpiAvailability": {
+      "pitches": [
+        "2",
+        "3",
+        "6"
+      ],
+      "rows": [
+        {
+          "size": "20 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "27 x 0.90",
+          "marks": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "size": "34 x 1.10",
+          "marks": [
+            "I",
+            "I",
+            "I"
+          ]
+        },
+        {
+          "size": "41 x 1.30",
+          "marks": [
+            "I",
+            "",
+            ""
+          ]
+        }
+      ],
+      "imported": "DAVY",
+      "indigenous": "SW-AL",
+      "edge": "M42"
+    }
+  },
+  {
+    "id": "warrior",
+    "name": "WARRIOR",
+    "category": "bimetal-bandsaws",
+    "image": "assets/products/SW-LCT/alfa_LCT_product1.webp",
+    "description": "High positive rake angle · Large cross-section materials",
+    "features": [
+      {
+        "title": "High positive rake angle",
+        "text": "Sharp tooth geometry for easy penetration and very aggressive cutting."
+      },
+      {
+        "title": "Large cross-section cutting",
+        "text": "Special tooth and flank geometry, with a specific tooth set for straight, smooth and stable cutting."
+      }
+    ],
+    "application": "Quenched and tempered steel · Case-hardened steel · Nitriding steel · High-speed steel",
+    "code": "",
+    "pdf": "assets/catalogs/bimetal-bandsaw-catalogue.pdf#page=6",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Size (mm)",
+        "Imported backing TPI"
+      ],
+      [
+        "41 x 1.30",
+        "1.4/2"
+      ],
+      [
+        "54 x 1.60",
+        "1.4/2"
+      ],
+      [
+        "67 x 1.60",
+        "1/1.3, 1.4/2, 0.75/1.25"
+      ],
+      [
+        "80 x 1.60",
+        "1/1.3, 1.4/2, 0.75/1.25"
+      ]
+    ],
+    "applicationMaterials": [
+      "Quenched and tempered steel",
+      "Case-hardened steel",
+      "Nitriding steel",
+      "High-speed steel"
+    ],
+    "applicationShapes": [
+      "Solid sections",
+      "Round stock",
+      "Tubes"
+    ],
+    "applicationFigure": "assets/bimetal/warrior-applications.webp",
+    "cataloguePage": 6,
+    "cataloguePrintedPage": 5,
+    "searchAliases": [
+      "sw-lct",
+      "WARRIOR"
+    ],
+    "catalogueRevision": "BSB-2026-10",
+    "tpiAvailability": {
+      "pitches": [
+        "1/1.3",
+        "1.4/2",
+        "0.75/1.25"
+      ],
+      "rows": [
+        {
+          "size": "41 x 1.30",
+          "marks": [
+            "",
+            "I",
+            ""
+          ]
+        },
+        {
+          "size": "54 x 1.60",
+          "marks": [
+            "",
+            "I",
+            ""
+          ]
+        },
+        {
+          "size": "67 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "I"
+          ]
+        },
+        {
+          "size": "80 x 1.60",
+          "marks": [
+            "I",
+            "I",
+            "I"
+          ]
+        }
+      ],
+      "imported": "WARRIOR",
+      "indigenous": null,
+      "edge": "M42 & M51"
+    }
+  },
+  {
+    "id": "holesaw",
+    "name": "Universal holesaw",
+    "category": "holesaws",
+    "image": "assets/products/Holesaw/alfa_product_holesaw4.webp",
+    "description": "Cuts Deeper · High Speed Steel Tooth Tip",
+    "features": [
+      {
+        "title": "Cuts Deeper",
+        "text": "Cutting Depth is double compared to conventional holesaw"
+      },
+      {
+        "title": "High Speed Steel Tooth Tip",
+        "text": "Hardness & toughness of HSS teeth gives it a longer life and cuts at higher speed with smooth finish."
+      }
+    ],
+    "application": "- Electric panel Manufacturer - Electric contractor - Building contractor - Carpentry",
+    "code": "ALFAHUNI",
+    "pdf": "assets/products/Holesaw/alfa_product_Universal Holesaw.pdf",
+    "sds": "assets/products/alfa_bandsaw_sds.pdf",
+    "specs": [
+      [
+        "Metric",
+        "Imperial"
+      ],
+      [
+        "1/2",
+        "12"
+      ],
+      [
+        "9/16",
+        "14"
+      ],
+      [
+        "5/8",
+        "16"
+      ],
+      [
+        "3/4",
+        "19"
+      ],
+      [
+        "7/8",
+        "22"
+      ],
+      [
+        "1",
+        "25"
+      ],
+      [
+        "1.1/8",
+        "29"
+      ],
+      [
+        "1.1/4",
+        "32"
+      ],
+      [
+        "1.3/",
+        "35"
+      ],
+      [
+        "1.1/2",
+        "38"
+      ],
+      [
+        "Metric",
+        "Imperial"
+      ],
+      [
+        "1.9/16",
+        "40"
+      ],
+      [
+        "1.3/4",
+        "44"
+      ],
+      [
+        "1.7/8",
+        "48"
+      ],
+      [
+        "2",
+        "51"
+      ],
+      [
+        "2.1/8",
+        "54"
+      ],
+      [
+        "2.1/4",
+        "57"
+      ],
+      [
+        "2.3/8",
+        "60"
+      ],
+      [
+        "2.1/2",
+        "64"
+      ],
+      [
+        "2.5/8",
+        "67"
+      ],
+      [
+        "2.3/4",
+        "70"
+      ],
+      [
+        "Metric",
+        "Imperial"
+      ],
+      [
+        "2.7/8",
+        "73"
+      ],
+      [
+        "3",
+        "76"
+      ],
+      [
+        "3.1/8",
+        "79"
+      ],
+      [
+        "3.1/4",
+        "83"
+      ],
+      [
+        "3.3/8",
+        "86"
+      ],
+      [
+        "3.1/2",
+        "89"
+      ],
+      [
+        "3.5/8",
+        "92"
+      ],
+      [
+        "3.3/4",
+        "95"
+      ],
+      [
+        "3.7/8",
+        "98"
+      ],
+      [
+        "4",
+        "102"
+      ]
+    ]
+  }
+]

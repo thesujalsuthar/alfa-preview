@@ -1,0 +1,37 @@
+/* Machine models: type filter, gallery, facts, spec tables */
+.machine-types{display:grid;grid-template-columns:auto 1fr 1fr auto;gap:10px 34px;align-items:start;padding:0 0 24px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.machine-types>a,.machine-types .label a{font-weight:700;color:var(--ink)}
+.machine-types>a{justify-self:start}
+.machine-types a{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);padding:5px 10px;border:1px solid var(--line);margin:0 6px 6px 0;white-space:nowrap}
+.machine-types a span{font-size:10px;color:#6c7c8e}
+.machine-types a:hover{color:var(--blue);border-color:var(--blue)}
+.machine-types a.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.machine-types a.active span{color:#dce8ff}
+.machine-types .label{margin:0 0 6px;letter-spacing:0;text-transform:none}
+.machine-types .label a{border:0;padding:5px 0}
+.machine-types .label a.active{background:none;color:var(--blue)}
+.machine-types>.small{margin:6px 0 0;white-space:nowrap}
+.machine-type-group{min-width:0}
+
+.machine-gallery{min-width:0}
+.machine-gallery .detail-image{margin:0}
+.machine-thumbs{display:flex;gap:10px;margin-top:12px;overflow-x:auto;padding-bottom:4px}
+.machine-thumbs button{flex:0 0 92px;height:70px;padding:4px;background:#f4f7fa;border:1px solid var(--line)}
+.machine-thumbs button[aria-pressed="true"]{border:2px solid var(--blue)}
+.machine-thumbs img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.machine-hero .detail-copy h1{font-size:40px}
+.machine-hero .label a:hover{color:var(--blue)}
+.machine-facts{margin:8px 0 28px;border-top:1px solid var(--line)}
+.machine-facts div{display:grid;grid-template-columns:minmax(120px,40%) 1fr;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.machine-facts dt{color:var(--muted)}
+.machine-facts dd{margin:0;font-weight:700}
+
+.machine-spec{margin-bottom:28px}
+.machine-spec caption{text-align:left;margin-bottom:10px}
+.machine-spec td,.machine-spec th{border:1px solid var(--line);vertical-align:middle}
+.machine-spec tr>td:first-child{color:var(--muted)}
+.machine-list{padding-left:19px;color:var(--muted);font-size:15px;margin:0 0 30px}
+.machine-list li{margin-bottom:6px}
+
+@media(max-width:1100px){.machine-types{grid-template-columns:1fr 1fr}.machine-types>a:first-child,.machine-types>.small{grid-column:1/-1}}
+@media(max-width:620px){.machine-types{grid-template-columns:1fr}.machine-hero .detail-copy h1{font-size:32px}.machine-facts div{grid-template-columns:1fr;gap:2px}.machine-thumbs button{flex-basis:76px;height:58px}}

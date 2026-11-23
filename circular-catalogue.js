@@ -1,0 +1,27 @@
+/* Transcribed from the supplied 4-page ESPADA circular-saw catalogue.
+   Page references are PDF page numbers. No prices or per-model size availability are inferred. */
+window.AlfaCircularCatalogue = (() => {
+  const pdf='assets/catalogs/circular-saw-catalogue.pdf';
+  const precision='High-precision cold saw machines';
+  const records=[
+    {slug:'max',name:'MAX',family:'MAX',page:2,tips:'Cermet alloy tips',application:'Medium and low carbon steel (C ≤ 0.45%)',machine:precision,speed:'100–130 m/min',bar:'0.04–0.09',tube:'0.03–0.06',finish:'silver',features:[['Precision cuts','Delivers straight cuts with a mirror-like surface finish.'],['Extended life','Cermet alloy teeth ensure long-lasting durability.'],['Optimized angles','Engineered for efficient chip removal and smooth operation.']]},
+    {slug:'pro-max',name:'PRO MAX',family:'PRO MAX',page:2,tips:'Cermet alloy tips',application:'High carbon steel (C ≤ 0.75%) and alloy steel',machine:precision,speed:'70–100 m/min',bar:'0.04–0.07',tube:'0.03–0.06',finish:'silver',features:[['Premium alloy plate','Customised steel body with rare alloy elements.'],['High hardness cutting','Optimized for high carbon and alloy steels.'],['Superior finish','Achieves ultra-straight cuts with mirror surface quality.']]},
+    {slug:'super-max',name:'SUPER MAX',family:'SUPER MAX',page:2,tips:'Cermet alloy tips',application:'Channel steel, angle steel, rectangular tubes, steel rods, copper and aluminium alloys',machine:precision,speed:'100–130 m/min',bar:'0.04–0.07',tube:null,finish:'silver',features:[['Affordable performance','Low-cost solution for manual cutting applications.'],['On-the-go cutting','Portable and flexible for various job sites.'],['Multi-material','Efficiently cuts steel, copper, aluminium and more.']]},
+    {slug:'ultra-max',name:'ULTRA MAX',family:'ULTRA MAX',page:3,tips:'Cermet alloy tips + PVD coating',application:'Stainless steel, including SUS304',machine:precision,speed:'70–130 m/min',bar:'0.03–0.05',tube:null,finish:'bronze',features:[['Advanced coating','PVD-coated tips for enhanced wear resistance.'],['Clean cutting','Delivers smooth cuts with minimal burr formation.'],['Extended tool life','High-performance coating extends blade longevity.']]},
+    {slug:'pipe-max',name:'PIPE MAX',family:'PIPE MAX',page:3,tips:'Cermet alloy tips',application:'Tubular materials',machine:precision,speed:'70–130 m/min',bar:'0.04–0.07',tube:'0.03–0.05',finish:'silver',features:[['Vibration control','Anti-vibration tooth geometry minimizes chatter.'],['Impact resistance','Built to withstand shock loads during pipe cutting.'],['Quieter cutting','Low-resonance design reduces noise in operation.']]},
+    {slug:'super-alu-max',name:'SUPER ALU MAX',family:'SUPER ALU MAX',page:3,tips:'TCT or PCD tips',application:'Aluminium profiles, bars, plastic, steel and non-ferrous metals',machine:'Manual saws, mitre saws and CNC centres',speed:'70–130 m/min',bar:'0.03–0.05',tube:null,finish:'silver',features:[['Whisper quiet','Laser-cut silencer lines reduce noise and vibration.'],['Burr-free finish','Smooth, clean cuts without edge deformation.'],['Versatile use','Compatible with manual saws, mitre saws and CNC centres.']]},
+    {slug:'hss-tin',name:'HSS · TiN',family:'HSS SAW',page:4,tips:'HSS saw with TiN coating',application:'Materials with UTS up to 500 N/mm²',machine:'Semi-automatic and automatic pipe-cutting circular saw machines',speed:null,bar:null,tube:null,finish:'gold',features:[['TiN coating','For material UTS up to 500 N/mm², as listed in the catalogue.'],['HSS range','One of the three listed HSS coating options: TiN, TiCN and TiAlN.']]},
+    {slug:'hss-ticn',name:'HSS · TiCN',family:'HSS SAW',page:4,tips:'HSS saw with TiCN coating',application:'Stainless-steel pipes and structures',machine:'Semi-automatic and automatic pipe-cutting circular saw machines',speed:null,bar:null,tube:null,finish:'slate',features:[['TiCN coating','For stainless-steel pipes and structures.'],['HSS range','One of the three listed HSS coating options: TiN, TiCN and TiAlN.']]},
+    {slug:'hss-tialn',name:'HSS · TiAlN',family:'HSS SAW',page:4,tips:'HSS saw with TiAlN coating',application:'Steel pipes, structures and material up to 1100 N/mm²',machine:'Semi-automatic and automatic pipe-cutting circular saw machines',speed:null,bar:null,tube:null,finish:'violet',features:[['TiAlN coating','For steel pipes, structures and material up to 1100 N/mm².'],['HSS range','One of the three listed HSS coating options: TiN, TiCN and TiAlN.']]}
+  ];
+  const products=records.map(r=>({
+    ...r,id:'espada-'+r.slug,category:'circular-saws',brand:'ESPADA',
+    image:'assets/circular/'+(r.family==='HSS SAW'?'hss':r.slug)+'.webp',
+    imageNote:r.family==='HSS SAW'?'Catalogue image shows the HSS coating range.':'Product image from the ESPADA catalogue.',
+    description:r.tips,features:r.features.map(([title,text])=>({title,text})),
+    pdf:pdf+'#page='+r.page,
+    specs:[['Specification','Catalogue information'],['Tips / coating',r.tips],['Application',r.application],['Machine compatibility',r.machine],['Cutting speed',r.speed||'Not specified for this HSS coating in the catalogue'],['Bar feed, Fz',r.bar||'Not specified'],['Tube feed, Fz',r.tube||'Not specified']]
+  }));
+  const guide=[['250',[54,60,72]],['285',[60,72,80]],['360',[60,80,100]],['425',[60,80,100]],['460',[40,60,80]],['560',[60,80,100]]];
+  return {products,pdf,guide};
+})();

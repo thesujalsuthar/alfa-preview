@@ -1,0 +1,29 @@
+/* Circular blade detail pages: sizes, pin holes, tooth shape, selection chart, flying saws */
+.cd-list{padding-left:19px;color:var(--muted);font-size:15px;margin:0 0 26px}
+.cd-list li{margin-bottom:6px}
+.cd-tooth{margin:0 0 30px;background:#eef4fa;border:1px solid #e1e9f2;max-width:300px}
+.cd-tooth img{display:block;width:100%;height:auto}
+.cd-tooth figcaption{font-size:12px;color:var(--muted);padding:10px 14px;border-top:1px solid #e1e9f2;letter-spacing:.06em;text-transform:uppercase}
+.cd-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.cd-chips button{font-size:13px;padding:7px 12px;border:1px solid var(--line);background:#fff;color:var(--muted)}
+.cd-chips button:hover{border-color:var(--blue);color:var(--blue)}
+.cd-chips button.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.cd-table{font-size:14px}
+.cd-table th{white-space:nowrap}
+.cd-table code{font-family:inherit;font-size:13px;color:var(--ink)}
+.cd-table tbody tr:hover td{background:#f8fafc}
+.cd-pins{margin-bottom:20px;max-width:560px}
+.cd-chart{overflow-x:auto;border:1px solid var(--line);padding:18px;background:#fff}
+.cd-chart svg{display:block;width:100%;min-width:640px;height:auto}
+.cd-formulas{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:28px}
+.cd-formulas>div{background:var(--pale);padding:26px 28px}
+.cd-formulas .label{margin-bottom:10px}
+.cd-eq{font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:700;color:var(--blue);letter-spacing:-.02em;margin-bottom:10px}
+.cd-formulas p:last-child{margin:0;font-size:15px}
+.cd-benefits{display:grid;gap:22px}
+.cd-benefits h3{font-size:20px;margin-bottom:8px}
+.cd-benefits p{color:var(--muted);font-size:15px;margin:0}
+.circular-guide .guide-content:has(.guide-chart){grid-template-columns:1fr}
+.circular-guide .guide-chart{overflow-x:auto;margin-bottom:18px}
+.circular-guide .guide-chart svg{display:block;width:100%;min-width:620px;height:auto}
+@media(max-width:760px){.cd-formulas{grid-template-columns:1fr}.cd-eq{font-size:20px}.cd-chart{padding:10px}}
